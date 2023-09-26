@@ -3,13 +3,104 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body style="background-color: rgb(237, 236, 236);">
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+	<div class="container">
+        <h1 class="block-heading text-center" style="color: #3b99e0;">Shopping Cart</h1>
+        <p class="text-center" style="margin-left: 450px; margin-right: 450px; margin-top: 2%; margin-bottom: 2%;">The customer is very important, the customer will be followed by the customer. Now, as an urn, I have no right to be in possession of property</p>
+        <div class="row bg-white" style="padding-top: 2%;">
+            <div class="col-lg-8">
+                <div class="product">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVcJ6ON_XXALvbvMG0NbwrSvAh2dJ0OkZp6E_fIg9B7k59RA6f" class="img-fluid" alt="Product 1">
+                        </div>
+                        <div class="col-lg-4">
+                            <h2 style="color: #3b99e0;">I am very sorry</h2>
+                            <p>Display: 5 inches</p>
+                            <p>RAM: 4GB</p>
+                            <p>Memory: 32GB</p>
+                        </div>
+                        <div class="col-lg-2" style="margin-top: 40px;">
+                            <label for="quantity1">Quantity:</label>
+                            <input type="number" class="form-control text-center" id="quantity1" value="0" min="0">
+                        </div>
+                        <div class="col-lg-3" style="margin-top: 60px; margin-left: 60px;">
+                            <h3>$120</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVcJ6ON_XXALvbvMG0NbwrSvAh2dJ0OkZp6E_fIg9B7k59RA6f" class="img-fluid" alt="Product 1">
+                        </div>
+                        <div class="col-lg-4">
+                            <h2 style="color: #3b99e0;">I am very sorry</h2>
+                            <p>Display: 5 inches</p>
+                            <p>RAM: 4GB</p>
+                            <p>Memory: 32GB</p>
+                        </div>
+                        <div class="col-lg-2" style="margin-top: 40px;">
+                            <label for="quantity1">Quantity:</label>
+                            <input type="number" class="form-control text-center" id="quantity1" value="0" min="0">
+                        </div>
+                        <div class="col-lg-3" style="margin-top: 60px; margin-left: 60px;">
+                            <h3>$120</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVcJ6ON_XXALvbvMG0NbwrSvAh2dJ0OkZp6E_fIg9B7k59RA6f" class="img-fluid" alt="Product 1">
+                        </div>
+                        <div class="col-lg-4">
+                            <h2 style="color: #3b99e0;">I am very sorry</h2>
+                            <p>Display: 5 inches</p>
+                            <p>RAM: 4GB</p>
+                            <p>Memory: 32GB</p>
+                        </div>
+                        <div class="col-lg-2" style="margin-top: 40px;">
+                            <label for="quantity1">Quantity:</label>
+                            <input type="number" class="form-control text-center" id="quantity1" value="0" min="0">
+                        </div>
+                        <div class="col-lg-3" style="margin-top: 60px; margin-left: 60px;">
+                            <h3>$120</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="summary" style="border-top: 2px solid #5ea4f3; background-color: #f7fbff; padding: 20px;">
+                    <h3 style="color: #3b99e0;">Summary</h3>
+                    <hr>
+                    <p id="subtotal">Subtotal: $49.98</p>
+                    <hr>
+                    <p>Discount: $0.00</p>
+                    <hr>
+                    <p>Shipping: $5.00</p>
+                    <hr>
+                    <h4 id="total">Total: $54.98</h4>
+                    <button class="btn btn-primary btn-block mt-3" style="width: 100%;">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+	
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
